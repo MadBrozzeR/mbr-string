@@ -10,7 +10,7 @@ declare namespace template {
 
 declare function createComplexTemplate(variables: {
     [key: string]: string;
-}): (template: string) => any;
+}): (template: string) => string;
 declare namespace createComplexTemplate {
     var regKey: RegExp;
 }
